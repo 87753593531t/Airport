@@ -19,14 +19,14 @@ class Choice(Enum):
         return self.value
 
 
-class CityChoice(str, Choice):
-    ALMATY = 'Almaty'
-    ASTANA = 'ASTANA'
-    KOKSHETAU ='KOKSHETAU'
-    AKTAU = 'AKTAU'
-    ATYRAU = 'ATYRAU'
-    ORAL = 'ORAL'
-    SHYMKENT = 'SHYMKENT'
+# class CityChoice(str, Choice):
+#     ALMATY = 'Almaty'
+#     ASTANA = 'ASTANA'
+#     KOKSHETAU ='KOKSHETAU'
+#     AKTAU = 'AKTAU'
+#     ATYRAU = 'ATYRAU'
+#     ORAL = 'ORAL'
+#     SHYMKENT = 'SHYMKENT'
 
 
 class STATUSChoice(str, Choice):
@@ -34,5 +34,3 @@ class STATUSChoice(str, Choice):
     LANDED = 'LANDED'
     LANDING = 'LANDING'
     DETAIND = 'DETAIND'
-
-

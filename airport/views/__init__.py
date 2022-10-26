@@ -1,3 +1,3 @@
-from.flights import FlightViewSet
-from.arrival import ArrivalViewSet
-from.departures import DeparturesViewSet
+from .flights import FlightViewSet
+from .citys import CityViewSet
+

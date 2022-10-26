@@ -1,3 +1,2 @@
-from.flights import FlightSerializer, FlightCreateSerializer
-from.arrival import ArrivalSerializer
-from.departurs import DeparturesSerializer
+from .flights import FlightSerializer, FlightCreateSerializer
+from .citys import CitySerializer
